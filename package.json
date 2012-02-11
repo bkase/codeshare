@@ -6,7 +6,6 @@
   "main": "./lib/tty.js",
   "bin": "./bin/tty.js",
   "preferGlobal": false,
-  "scripts": { "preinstall": "cd tty.js && make" },
   "repository": "git://github.com/bkase/codeshare.git",
   "homepage": "https://github.com/bkase/codeshare",
   "bugs": { "url": "https://github.com/bkase/codeshare/issues" },
