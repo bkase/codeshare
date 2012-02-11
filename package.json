@@ -1,7 +1,20 @@
 {
-    "name": "codeshare",
-    "version": "0.1.0",
-    "dependencies": {
-        "express": "2.0.0"
-    }
+  "name": "codeshare",
+  "description": "Review and share friends', classmates', and colleagues' code over a google hangout",
+  "author": "Brandon Kase with a fork of tty.js by Christopher Jeffrey",
+  "version": "0.0.1",
+  "main": "./lib/tty.js",
+  "bin": "./bin/tty.js",
+  "preferGlobal": false,
+  "scripts": { "preinstall": "cd tty.js && make" },
+  "repository": "git://github.com/bkase/codeshare.git",
+  "homepage": "https://github.com/bkase/codeshare",
+  "bugs": { "url": "https://github.com/bkase/codeshare/issues" },
+  "keywords": [ "codeshare", "terminal", "hangout", "tty" ],
+  "tags": [ "codeshare", "tty", "terminal", "hangout" ],
+  "dependencies": {
+    "express": "2.5.x",
+    "socket.io": "0.8.x",
+    "socket.io-client": "0.8.x"
+  }
 }
