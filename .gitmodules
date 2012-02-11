@@ -1,0 +1,3 @@
+[submodule "tty.js"]
+	path = tty.js
+	url = git://github.com/bkase/tty.js.git

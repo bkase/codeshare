@@ -1,0 +1,7 @@
+{
+    "name": "codeshare",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "2.0.0"
+    }
+}
